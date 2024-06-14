@@ -38,4 +38,6 @@ Una vez completado este paso, simplemente tendrías que cargar el archivo en tu 
 
 Código del script: [Extracción de datos en Facturas](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/ExtractDataFras.py)
 
+En el siguiente vídeo, podrás observar cómo el script permite extraer la información de los archivos PDF que se encuentran en una carpeta específica.
 
+[![Vista previa del video](https://img.youtube.com/vi/q0--Z0egplE/0.jpg)](https://youtu.be/q0--Z0egplE)
