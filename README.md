@@ -51,4 +51,6 @@ Como se muestra en la siguiente imagen, la información necesaria de los PDFs ha
 # Para exportar el dataframe
 final_df.to_excel('output.xlsx', index=False)  # para exportarlo a Excel
 final_df.to_csv('output.csv', index=False)  # para exportarlo a .csv
+
+```
 ![OutputExcel](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/OutputExcel.png)
