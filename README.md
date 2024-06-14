@@ -54,3 +54,8 @@ final_df.to_csv('output.csv', index=False)  # para exportarlo a .csv
 
 ```
 ![OutputExcel](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/OutputExcel.png)
+
+---
+En resumen, hemos presenciado cómo la implementación de PyPDF2 no solo agiliza, sino que también mejora la precisión del proceso contable al automatizar la carga masiva de facturas en nuestro ERP gracias a la extracción de la información relevante de los archivos PDF. Esta herramienta no solo ahorra tiempo al evitar la necesidad de contabilizar cada factura individualmente, sino que también reduce los errores humanos asociados con esta tarea.
+Al aprovechar la capacidad de PyPDF2 para procesar documentos PDF de manera eficiente, el departamento contable puede concentrar sus esfuerzos en tareas más estratégicas y de mayor valor añadido.
+En definitiva, PyPDF2 se revela como una solución efectiva para optimizar los procesos contables y mejorar la productividad en la gestión de facturas.
