@@ -6,6 +6,9 @@
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm1tN3Zsdm81cjVjZTJscmExdmV2eTM3YmlkN2hzZHFhbDA2YXRmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Zebztgv7jmkoLe1DoY/giphy.gif" width="100"/>
 </div>
 
+<div id="header" align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXlvMW53aDFrYTZwYXBhbzIweHhnNmdvYnh3ajF0MHd3MGVxcDd4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KGhpQ5NMoWKQurlHwI/giphy.gif" width="100"/>
+</div>
 ## 📦 Librería PyPDF2
 PyPDF2 es una biblioteca de Python diseñada para trabajar con archivos PDF. Proporciona funciones para extraer información y realizar diversas operaciones en documentos PDF, como la fusión de archivos, la división de páginas y la extracción de texto.
 En el contexto de la contabilización de facturas, PyPDF2 puede ser utilizado para extraer texto e información relevante de archivos PDF que contienen datos de facturas.
