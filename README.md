@@ -24,3 +24,15 @@ Para automatizar este proceso, he creado diferentes facturas ficticias en excel 
 El módelo de factura es el siguiente:
 
 ![Modelo Factura](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/fra1.png)
+
+Los campos subrallados de la factura son los que voy a extraer. Este proceso lo hará por cada una de las facturas de la carpeta.
+
+---
+Como comentaba, el script itera sobre todos los archivos en la carpeta especificada, verifica si son archivos PDF, extrae información que le hemos solicitado y luego concatena todos los DataFrames resultantes en uno solo. Hay que tener en cuenta que estos scripts se deberán de ajustar a las particularidades de cada factura.
+Finalmente, después de extraer la información de las facturas, será necesario ajustar el DataFrame al formato necesario para tu ERP.
+Este proceso puede llevarse a cabo utilizando la biblioteca Pandas.
+En el caso de las facturas de compra, por ejemplo, si deseas incluir el centro de coste, este es el momento de agregar una columna con dicha información.
+
+Después de realizar este ajuste, solo quedaría exportar el DataFrame al formato requerido, siendo común que tu ERP solicite archivos en formato Excel o CSV.
+Una vez completado este paso, simplemente tendrías que cargar el archivo en tu ERP para llevar a cabo la carga masiva de facturas.
+
