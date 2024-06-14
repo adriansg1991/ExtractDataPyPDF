@@ -9,6 +9,8 @@ En el contexto de la contabilización de facturas, PyPDF2 puede ser utilizado pa
 La contabilización de facturas emerge como una de las labores más monótonas para cualquier contable, llegando a absorber hasta un 80% de su jornada laboral en muchas ocasiones.
 Con mi constante búsqueda de soluciones para automatizar procesos, he aprovechado mi experiencia en Python para descubrir una librería sumamente valiosa en este ámbito: PyPDF2. Esta herramienta se revela como una opción fascinante para agilizar la automatización de la contabilización de facturas, permitiéndo optimizar tiempo y recursos de manera efectiva.
 
+---
+
 ## Caso práctico: Extracción de información de facturas
 La contabilización de facturas emerge como una de las labores más monótonas para cualquier contable, llegando a absorber hasta un 80% de su jornada laboral en muchas ocasiones.
 Con mi constante búsqueda de soluciones para automatizar procesos, he aprovechado mi experiencia en Python para descubrir una librería sumamente valiosa en este ámbito: PyPDF2. Esta herramienta se revela como una opción fascinante para agilizar la automatización de la contabilización de facturas, permitiéndo optimizar tiempo y recursos de manera efectiva.
