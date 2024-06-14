@@ -38,6 +38,17 @@ Una vez completado este paso, simplemente tendrías que cargar el archivo en tu 
 
 Código del script: [Extracción de datos en Facturas](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/ExtractDataFras.py)
 
-En el siguiente vídeo, podrás observar cómo el script permite extraer la información de los archivos PDF que se encuentran en una carpeta específica.
+En el siguiente vídeo, podrás observar como el script permite extraer la información de los archivos PDF que se encuentran en una carpeta específica.
 
 [![Vista previa del video](https://img.youtube.com/vi/q0--Z0egplE/0.jpg)](https://youtu.be/q0--Z0egplE)
+---
+
+### OUTPUT
+Como se muestra en la siguiente imagen, la información necesaria de los PDFs ha sido extraída y se han generado las columnas requeridas por nuestro ERP. Por lo tanto, el paso final es exportar este DataFrame a un archivo .csv o Excel y cargar dicho archivo en nuestro ERP.
+
+
+```python
+# Para exportar el dataframe
+final_df.to_excel('output.xlsx', index=False)  # para exportarlo a Excel
+final_df.to_csv('output.csv', index=False)  # para exportarlo a .csv
+
