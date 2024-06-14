@@ -2,6 +2,9 @@
 [![Python Version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
 ![PyPDF2 - Version](https://img.shields.io/pypi/v/pypdf2)
 [![Pandas](https://img.shields.io/badge/pandas-1.2.0+-yellow)](https://pandas.pydata.org/)
+<div id="header" align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm1tN3Zsdm81cjVjZTJscmExdmV2eTM3YmlkN2hzZHFhbDA2YXRmdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Zebztgv7jmkoLe1DoY/giphy.gif" width="100"/>
+</div>
 
 ## 📦 Librería PyPDF2
 PyPDF2 es una biblioteca de Python diseñada para trabajar con archivos PDF. Proporciona funciones para extraer información y realizar diversas operaciones en documentos PDF, como la fusión de archivos, la división de páginas y la extracción de texto.
@@ -25,7 +28,7 @@ El módelo de factura es el siguiente:
 
 ![Modelo Factura](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/fra1.png)
 
-Los campos subrallados de la factura son los que voy a extraer. Este proceso lo hará por cada una de las facturas de la carpeta.
+Los campos subrayados de la factura son los que voy a extraer. Este proceso lo hará por cada una de las facturas de la carpeta.
 
 ---
 Como comentaba, el script itera sobre todos los archivos en la carpeta especificada, verifica si son archivos PDF, extrae información que le hemos solicitado y luego concatena todos los DataFrames resultantes en uno solo. Hay que tener en cuenta que estos scripts se deberán de ajustar a las particularidades de cada factura.
@@ -56,6 +59,6 @@ final_df.to_csv('output.csv', index=False)  # para exportarlo a .csv
 ![OutputExcel](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/OutputExcel.png)
 
 ---
-En resumen, hemos presenciado cómo la implementación de PyPDF2 no solo agiliza, sino que también mejora la precisión del proceso contable al automatizar la carga masiva de facturas en nuestro ERP gracias a la extracción de la información relevante de los archivos PDF. Esta herramienta no solo ahorra tiempo al evitar la necesidad de contabilizar cada factura individualmente, sino que también reduce los errores humanos asociados con esta tarea.
+En resumen, hemos presenciado como la implementación de PyPDF2 no solo agiliza, sino que también mejora la precisión del proceso contable al automatizar la carga masiva de facturas en nuestro ERP gracias a la extracción de la información relevante de los archivos PDF. Esta herramienta no solo ahorra tiempo al evitar la necesidad de contabilizar cada factura individualmente, sino que también reduce los errores humanos asociados con esta tarea.
 Al aprovechar la capacidad de PyPDF2 para procesar documentos PDF de manera eficiente, el departamento contable puede concentrar sus esfuerzos en tareas más estratégicas y de mayor valor añadido.
 En definitiva, PyPDF2 se revela como una solución efectiva para optimizar los procesos contables y mejorar la productividad en la gestión de facturas.
