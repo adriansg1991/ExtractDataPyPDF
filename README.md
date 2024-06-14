@@ -36,3 +36,6 @@ En el caso de las facturas de compra, por ejemplo, si deseas incluir el centro d
 Después de realizar este ajuste, solo quedaría exportar el DataFrame al formato requerido, siendo común que tu ERP solicite archivos en formato Excel o CSV.
 Una vez completado este paso, simplemente tendrías que cargar el archivo en tu ERP para llevar a cabo la carga masiva de facturas.
 
+Código del script: [Extracción de datos en Facturas](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/ExtractDataFras.py)
+
+
