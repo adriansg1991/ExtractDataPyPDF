@@ -1,4 +1,4 @@
-# Extracción de datos en PDF's - Librería PyPDF2
+# ℹ️ Extracción de datos en PDF's - Librería PyPDF2
 [![Python Version](https://img.shields.io/badge/python-3.8-blue)](https://www.python.org/downloads/release/python-380/)
 ![PyPDF2 - Version](https://img.shields.io/pypi/v/pypdf2)
 [![Pandas](https://img.shields.io/badge/pandas-1.2.0+-yellow)](https://pandas.pydata.org/)
