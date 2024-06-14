@@ -17,3 +17,8 @@ Con mi constante búsqueda de soluciones para automatizar procesos, he aprovecha
 
 El caso práctico que voy a explicar se basa en la **extracción de la información de las facturas almacenadas en archivos PDF dentro de una carpeta en nuestro PC, con el objetivo de generar un archivo en formato Excel/CSV compatible con nuestro sistema ERP.**
 Esta automatización permitirá realizar una carga masiva de facturas sin la necesidad de contabilizar cada factura de manera individual.
+
+### Explicación de la automatización
+Para automatizar este proceso, he creado diferentes facturas ficticias en excel y las he exportado a pdf. Todas estas facturas, las he guardado en una carpeta específica. De esta forma, el script extraerá la información de todos los pdf que estén en esta carpeta.
+
+El módelo de factura es el siguiente:
