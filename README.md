@@ -69,3 +69,5 @@ En definitiva, PyPDF2 se revela como una solución efectiva para optimizar los p
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [mi correo electrónico](mailto:adriansg1991@gmail.com) o en [Linkedin](https://linkedin.com/in/adriansanchez-garcia/).
 
 ¡Gracias por visitar el repositorio! 🚀
+
+`Adrián Sánchez`
