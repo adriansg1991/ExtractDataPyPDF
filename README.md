@@ -22,3 +22,4 @@ Esta automatización permitirá realizar una carga masiva de facturas sin la nec
 Para automatizar este proceso, he creado diferentes facturas ficticias en excel y las he exportado a pdf. Todas estas facturas, las he guardado en una carpeta específica. De esta forma, el script extraerá la información de todos los pdf que estén en esta carpeta.
 
 El módelo de factura es el siguiente:
+![Modelo Factura](https://github.com/adriansg1991/ExtractData_PyPDF/blob/main/fra1.png)
